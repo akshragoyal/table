@@ -1,0 +1,27 @@
+table,th,tr,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse:collapse;
+    width: 80%;
+}
+td,th{
+    text-align: left;
+    padding: 10px 14px;
+}
+th{
+    background-color: black ;
+color: antiquewhite;
+}
+
+tr,:nth-child(even){
+    background:rgb(127, 197, 255);
+}
+
+
+caption{
+    caption-side: bottom;
+     font-style:italic ;
+     color: black;
+}
